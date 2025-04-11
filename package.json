@@ -1,0 +1,19 @@
+{
+  "name": "api-nsfw",
+  "version": "1.0.0",
+  "description": "API para detectar contenido NSFW usando Nyckel",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["api", "nsfw", "nyckel", "nodejs", "express"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "*",
+    "cheerio": "*",
+    "express": "*",
+    "form-data": "*"
+  }
+}
